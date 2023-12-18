@@ -1,0 +1,107 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("/img/High_resolution_wallpaper_background_ID_77700946085.webp");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+    height: 50px;
+    font-size: x;
+}
+
+header li a {
+    color: gold;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+p{
+    width: 700px;
+    font-size: 20px;
+    color: gold;
+    margin-top: 100px;
+    margin-left: 40px;
+    display: flex;
+    backdrop-filter: blur(30px);
+    font-family: monospace;
+   
+}
+h1{
+    font-size: 50px;
+    color: gold;
+    margin-top: 150px;
+    margin-left: 40px;
+    font-family: monospace;
+    backdrop-filter: blur(1.5px);
+
+  
+}
+
+.goo{
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    width: 450px;
+    height: 450px;
+    border-radius: 2.5 solid;
+    display: flex;
+    transition: 2s;
+}
+
+.aboutme-container{
+    display: flex;
+}
+.andales{
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  padding: 65px;
+  margin: 65px; 
+}
+
+.right{
+    animation-duration: 1.5s;
+    animation-name:slideright;
+}
+.left{
+    animation-duration: 1.5s;
+    animation-name: slideleft;
+}
+
+@keyframes slideleft{
+    from{
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+}
+@keyframes slideright{
+    from{
+        transform: translatex(50%);
+        opacity: 0;
+    }
+}
+
+.kiert{
+    transition: 3s;
+    animation-name: text; 
+}
